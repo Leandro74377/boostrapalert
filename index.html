@@ -3,30 +3,17 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap Alerts Example</title>
+  <title>Bootstrap Alerts dismissible</title>
   <!-- Enlace al CSS de Bootstrap -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 </head>
 <body class="p-4">
-
   <div class="container">
     <h2>Bootstrap Alerts</h2>
 
-    <div class="alert alert-success">
-      This alert box could indicate a successful or positive action.
-    </div>
-
-    <div class="alert alert-info">
-      This alert box could indicate a neutral informative change or action.
-    </div>
-
-    <div class="alert alert-warning">
-      This alert box could indicate a warning that might need attention.
-    </div>
-
-    <div class="alert alert-danger">
-      This alert box could indicate a dangerous or potentially negative action.
-    </div>
+   <div class="alert alert-success alert-dismissible">
+  <button class="close" data-dismiss="alert">X</button>
+  Blah blah blah.
   </div>
 </body>
 </html>
